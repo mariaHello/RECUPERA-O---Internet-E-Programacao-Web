@@ -7,7 +7,7 @@ document.getElementById("addItemBtn").addEventListener("click", function() {
   errorMessage.textContent = "";
 
   if (itemText === "") {
-    errorMessage.textContent = "Por favor, insira uma descoberta.";
+    errorMessage.textContent = "Por favor, insira um item.";
   } else {
     const newItem = document.createElement("li");
     newItem.textContent = itemText;

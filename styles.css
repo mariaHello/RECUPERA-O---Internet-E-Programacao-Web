@@ -7,12 +7,13 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f0f8ff;
+  background: url('compras.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #333;
 }
 
 header {
-  background-color: #ff6347;
+  background-color: rgba(255, 99, 71, 0.8);
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -26,6 +27,8 @@ header h1 {
 main {
   padding: 20px;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
 }
 
 main h2 {
@@ -60,7 +63,7 @@ ul li {
 }
 
 footer {
-  background-color: #ff6347;
+  background-color: rgba(255, 99, 71, 0.8);
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -84,8 +87,8 @@ footer h3 {
 #addItemBtn {
   padding: 10px 20px;
   font-size: 1em;
-  color: #000; /* Fonte preta */
-  background-color: #fff; /* Fundo branco */
+  color: #000;
+  background-color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;

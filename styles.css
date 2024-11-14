@@ -33,7 +33,7 @@ main {
 
 main h2 {
   font-size: 2em;
-  color: #ff6347;
+  color: #fff8d6; /* Cor atualizada para combinar com o fundo da imagem */
   margin-bottom: 10px;
 }
 

@@ -84,8 +84,8 @@ footer h3 {
 #addItemBtn {
   padding: 10px 20px;
   font-size: 1em;
-  color: #fff;
-  background-color: #ff6347;
+  color: #000; /* Fonte preta */
+  background-color: #fff; /* Fundo branco */
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -93,7 +93,7 @@ footer h3 {
 }
 
 #addItemBtn:hover {
-  background-color: #ff4500;
+  background-color: #e0e0e0;
 }
 
 #errorMessage {

@@ -33,8 +33,11 @@ main {
 
 main h2 {
   font-size: 2em;
-  color: #fff8d6; /* Cor atualizada para combinar com o fundo da imagem */
+  background-color: #fff8d6; /* Cor de fundo alterada para #fff8d6 */
+  color: #333; /* Cor do texto para garantir boa legibilidade */
   margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 main p {
